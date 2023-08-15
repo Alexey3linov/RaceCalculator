@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCalculator", "RaceCalculator\RaceCalculator.csproj", "{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{598B18DC-32BB-4551-9B1B-D93FBBA06C2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BFBA9263-2F5A-47F5-B15C-B61E005FDB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{F0995653-99A3-459C-871A-99D44047A938}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A85307BD-D483-4057-89DB-8C25F94F9F88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096} = {598B18DC-32BB-4551-9B1B-D93FBBA06C2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAE2D02A-2E48-4892-89CB-39B5D07A4CCE}
+	EndGlobalSection
+EndGlobal
