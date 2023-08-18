@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCalculator", "RaceCalculator\RaceCalculator.csproj", "{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaceCalculator.Domain", "RaceCalculator\RaceCalculator.Domain.csproj", "{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{598B18DC-32BB-4551-9B1B-D93FBBA06C2B}"
 EndProject
@@ -12,6 +12,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{F0995653-99A3-459C-871A-99D44047A938}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A85307BD-D483-4057-89DB-8C25F94F9F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCalculator.Application", "RaceCalculator.Application\RaceCalculator.Application.csproj", "{9FA95C91-6D9E-439C-8424-8F1DBCBB9BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCalculator.Persistence", "RaceCalculator.Persistence\RaceCalculator.Persistence.csproj", "{B0362BBB-73EB-4FBF-B511-ECB8F1387E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCalculator.WebApi", "RaceCalculator.WebApi\RaceCalculator.WebApi.csproj", "{A66AE544-94AB-4677-A459-372E5D4C756C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +29,27 @@ Global
 		{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA95C91-6D9E-439C-8424-8F1DBCBB9BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA95C91-6D9E-439C-8424-8F1DBCBB9BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA95C91-6D9E-439C-8424-8F1DBCBB9BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA95C91-6D9E-439C-8424-8F1DBCBB9BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0362BBB-73EB-4FBF-B511-ECB8F1387E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0362BBB-73EB-4FBF-B511-ECB8F1387E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0362BBB-73EB-4FBF-B511-ECB8F1387E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0362BBB-73EB-4FBF-B511-ECB8F1387E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66AE544-94AB-4677-A459-372E5D4C756C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66AE544-94AB-4677-A459-372E5D4C756C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66AE544-94AB-4677-A459-372E5D4C756C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66AE544-94AB-4677-A459-372E5D4C756C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6D77CEFB-4EBA-4DC9-8EBB-00DB991F2096} = {598B18DC-32BB-4551-9B1B-D93FBBA06C2B}
+		{9FA95C91-6D9E-439C-8424-8F1DBCBB9BC8} = {598B18DC-32BB-4551-9B1B-D93FBBA06C2B}
+		{B0362BBB-73EB-4FBF-B511-ECB8F1387E29} = {BFBA9263-2F5A-47F5-B15C-B61E005FDB5D}
+		{A66AE544-94AB-4677-A459-372E5D4C756C} = {F0995653-99A3-459C-871A-99D44047A938}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FAE2D02A-2E48-4892-89CB-39B5D07A4CCE}
