@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RaceCalculator.Domain\RaceCalculator.Domain.csproj" />
     <ProjectReference Include="..\RaceCalculator\RaceCalculator.Domain.csproj" />
   </ItemGroup>
 

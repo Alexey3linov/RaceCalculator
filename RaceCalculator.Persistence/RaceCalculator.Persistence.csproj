@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RaceCalculator.Application\RaceCalculator.Application.csproj" />
+    <ProjectReference Include="..\RaceCalculator.Domain\RaceCalculator.Domain.csproj" />
   </ItemGroup>
 
 </Project>

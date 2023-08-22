@@ -3,13 +3,12 @@ using RaceCalculator.Domain;
 
 namespace RaceCalculator.Persistence.EntityTypeConfigurations
 {
-    internal class ChampionshipConfiguration : BaseConfiguration<Championship>
+    internal class NominationConfiguration : BaseConfiguration<Nomination>
     {
-        public override void Configure(EntityTypeBuilder<Championship> builder)
+        public override void Configure(EntityTypeBuilder<Nomination> builder)
         {
             base.Configure(builder);
             builder.Property(champ => champ.Title).IsRequired().HasMaxLength(255);
-            builder.Property(champ => champ.StartDate).IsRequired();
         }
     }
 }
