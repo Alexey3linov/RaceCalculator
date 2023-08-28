@@ -10,6 +10,7 @@ namespace RaceCalculator.Persistence.EntityTypeConfigurations
             base.Configure(builder);
             builder.Property(champ => champ.Name).IsRequired().HasMaxLength(255);
             builder.Property(champ => champ.Class).IsRequired();
+            builder.Property(champ => champ.ChampionshipList);
         }
     }
 }
