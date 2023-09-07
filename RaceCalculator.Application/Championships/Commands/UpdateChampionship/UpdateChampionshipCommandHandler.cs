@@ -2,7 +2,9 @@
 
 using Microsoft.EntityFrameworkCore;
 
+using RaceCalculator.Application.Common.Exceptions;
 using RaceCalculator.Application.Interfaces;
+using RaceCalculator.Domain;
 
 namespace RaceCalculator.Application.Championships.Commands.UpdateChampionship
 {
@@ -14,12 +16,20 @@ namespace RaceCalculator.Application.Championships.Commands.UpdateChampionship
 
         public async Task<Guid> Handle(UpdateChampionshipCommand request, CancellationToken token)
         {
-            var entity = _dbContext.Championships.FirstOrDefaultAsync(c => c.Id == request.Id, token);
+            var entity = await _dbContext.Championships.FirstOrDefaultAsync(c => c.Id == request.Id, token);
 
             if (entity == null)
             {
-                throw
+                throw new NotFoundException(nameof(Championship), request.Id);
             }
+
+            entity.Title          = request.Title;
+            entity.StartDate      = request.StartDate;
+            entity.StageList      = request.StageList;
+            entity.NominationList = request.NominationList;
+            entity.CompetitorList = request.CompetitorList;
+
+            await _dbContext.SaveChangesAsync(token);
 
             return default;
         }
