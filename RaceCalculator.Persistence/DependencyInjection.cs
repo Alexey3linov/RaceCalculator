@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 using RaceCalculator.Application.Interfaces;
 
