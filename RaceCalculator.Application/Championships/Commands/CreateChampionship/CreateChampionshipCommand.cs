@@ -4,7 +4,7 @@ using RaceCalculator.Domain;
 
 namespace RaceCalculator.Application.Championships.Commands.CreateChampionship
 {
-    public class CreateChampionshipCommand : IRequest<Guid>
+    public class CreateChampionshipCommand : BaseChampionshipCommand
     {
         public string                  Title          { get; set; }
         public DateTime                StartDate      { get; set; }

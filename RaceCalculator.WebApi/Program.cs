@@ -17,6 +17,7 @@ builder.Services.AddAutoMapper(config =>
 
 builder.Services.AddApplication();
 builder.Services.AddPersistence(builder.Configuration.Get<IConfiguration>());
+builder.Services.AddControllers();
 
 builder.Services.AddCors(options =>
 {

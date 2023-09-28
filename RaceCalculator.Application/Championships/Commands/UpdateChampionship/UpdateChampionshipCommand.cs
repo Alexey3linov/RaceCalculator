@@ -4,9 +4,8 @@ using RaceCalculator.Domain;
 
 namespace RaceCalculator.Application.Championships.Commands.UpdateChampionship
 {
-    public class UpdateChampionshipCommand : IRequest<Guid>
+    public class UpdateChampionshipCommand : BaseChampionshipCommand
     {
-        public Guid                    Id             { get; set; }
         public string                  Title          { get; set; }
         public DateTime                StartDate      { get; set; }
         public IEnumerable<Stage>      StageList      { get; set; }

@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaceCalculator.Persistence"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaceCalculator.Domain", "RaceCalculator.Domain\RaceCalculator.Domain.csproj", "{7A44E18F-6957-4782-BC4C-CA8B1829F61B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCalculator.WebApi", "RaceCalculator.WebApi\RaceCalculator.WebApi.csproj", "{01F4EFB5-11C6-4521-B6C3-2D5CCF6F2409}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaceCalculator.WebApi", "RaceCalculator.WebApi\RaceCalculator.WebApi.csproj", "{01F4EFB5-11C6-4521-B6C3-2D5CCF6F2409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
